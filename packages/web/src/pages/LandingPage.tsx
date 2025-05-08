@@ -19,7 +19,7 @@ import {
   PiTreeStructure,
   PiPenNib,
 } from 'react-icons/pi';
-import AwsIcon from '../assets/aws.svg?react';
+
 import useInterUseCases from '../hooks/useInterUseCases';
 import {
   AgentPageQueryParams,
@@ -249,8 +249,12 @@ const LandingPage: React.FC = () => {
 
   return (
     <div className="pb-24">
-      <div className="bg-aws-squid-ink flex flex-col items-center justify-center px-3 py-5 text-xl font-semibold text-white lg:flex-row">
-        <AwsIcon className="mr-5 size-20" />
+      <div className="bg-aws-squid-ink flex flex-col items-center justify-center px-3 py-5 text-3xl font-semibold text-white lg:flex-row">
+        <img
+          src="./images/TesuTaro_Hokkaido.png"
+          className="mr-5 size-20"
+          style={{ width: '170px', height: '141px' }}
+        />
         {t('landing.title')}
       </div>
 
