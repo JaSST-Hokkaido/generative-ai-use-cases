@@ -442,6 +442,7 @@ landing:
     web_content:
       url: https://aws.amazon.com/jp/bedrock/
   title: 北海道は ＤＸ ＡＩ ＤＯ！
+    ~ JaSST'25 Hokkaido ~
   try: 試す
   try_message: をクリックすることで、各ユースケースを体験できます。
   use_cases:
